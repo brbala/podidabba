@@ -5,6 +5,12 @@
 */
 
 /* Banner */
+.circle-image {
+	width: 200px; /* Adjust the size as needed */
+	height: 200px; /* Ensure the height and width are equal */
+	border-radius: 50%;
+	object-fit: cover; /* Ensures the image covers the container without distortion */
+}
 
 	body.is-preload #banner h2 {
 		-moz-transform: none;
